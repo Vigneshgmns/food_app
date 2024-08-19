@@ -29,7 +29,7 @@ function Navbar() {
                 <input className='bg-transparent focus:outline-none w-full p-2' type="text" placeholder='Search foods' />
             </div>
             {/* Cart button */}
-            <button className='bg-black text-white md:flex items-center rounded-full  py-2'>
+            <button className='bg-black text-white hidden md:flex items-center rounded-full  py-2'>
                 <BsFillCartFill size={20} className='mr-2' /> Cart
             </button>
 
